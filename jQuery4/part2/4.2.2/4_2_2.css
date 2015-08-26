@@ -1,0 +1,24 @@
+﻿body
+{
+    width:100%;
+    font-size:200%;
+    font-family:serif;
+}
+#controls {
+vertical-align:middle;
+}
+#showText {
+    position:absolute;
+    top:200px;
+    left:200px;
+vertical-align:middle;
+}
+#container {
+    position:absolute;
+    top:100px;
+    left:200px;
+    width:800px;
+    height:600px;
+    background-color:beige;
+    text-align:center;
+}

@@ -1,0 +1,53 @@
+﻿body {
+    background-color: beige;
+    min-width: 900px;
+    align-content: center;
+}
+
+#paragraph {
+    margin-top: 40px;
+    height: 120px;
+    width: 1000px;
+    background-color: lightseagreen;
+}
+
+#animation {
+    margin-top: 40px;
+    height: 200px;
+    background-color: lightseagreen;
+    width: 1000px;
+}
+
+#rect1, #rect2, #rect3 {
+    width: 50px;
+    height: 60px;
+    background-color: lightgreen;
+    text-align: center;
+    position: relative;
+    left: 170px;
+}
+
+#r1wrapper, #r2wrapper, #r3wrapper {
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#zebratables {
+    margin-top: 40px;
+    background-color: lightseagreen;
+    height: 150px;
+    width: 1000px;
+}
+
+#table1 {
+    margin: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+#table2 {
+    margin: 10px;
+    float: left;
+}

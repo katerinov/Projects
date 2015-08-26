@@ -1,0 +1,1 @@
+{"NickName":"Clare","Owner":"Bob","Color":"white","Age":6,"Height":160}

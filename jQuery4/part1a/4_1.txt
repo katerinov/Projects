@@ -1,0 +1,5 @@
+﻿Alas, the wonders of JQuery. So much easier. 
+The jQuery animate() method is used to create custom animations.  $(selector).animate({params},speed,callback); 
+The required params parameter defines the CSS properties to be animated. 
+The optional speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or milliseconds.  
+The optional callback parameter is a function to be executed after the animation completes. 

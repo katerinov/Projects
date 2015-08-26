@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>JS_3.3</title>
+    <link href="3_3.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="3_3.js"></script>
+</head>
+<body>
+    <div id="header">
+        Registration<br />
+    </div>
+    <div id="main">
+        <label for="email">E-mail: </label>
+        <br />
+        <input type="text" id="email" placeholder="user123@mail.com" data-message-id="emailError" />
+        <span id="emailError">Incorrect email format,(example: wow@gmail.com)</span><br />
+        <br />
+        <label for="pass">Password: </label>
+        <br />
+        <input type="password" id="pass" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" data-message-id="passError" />
+        <span id="passError">From 8-32 letters, AT LEAST 1 capital(BIG )letter, 1 lowercase letter and 1 number(example: Jhonathan62)</span><br />
+        <br />
+        <label for="name">Name: </label>
+        <br />
+        <input type="text" id="name" placeholder="Ilya" data-message-id="nameError" />
+        <span id="nameError">English letters only, start with a capital(BIG) letter, AT LEAST 2 letters (example: Jhon)</span><br />
+        <br />
+        <label for="phone">Home Phone: </label>
+        <br />
+        <input type="text" id="phone" placeholder="+0445252332" data-message-id="phoneError" />
+        <span id="phoneError">Must start with +044, and then 7 numbers: +044XXXXXXX (example:+0445552211)</span><br />
+        <br />
+        <br />
+        <input type="button" value="Submit" id="btn" style="font-size: large" /><br />
+        <br />
+    </div>
+</body>
+</html>

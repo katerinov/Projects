@@ -1,0 +1,32 @@
+﻿body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 100%;
+    min-width: 800px;
+}
+
+#header {
+    width: 800px;
+    text-align: center;
+}
+
+#main {
+    font-size: 150%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 850px;
+    text-align: left;
+    background-color: beige;
+    padding: 30px;
+}
+
+#emailError,
+#phoneError,
+#passError,
+#nameError {
+    position: relative;
+    visibility: hidden;
+    color: red;
+    font-size: 60%;
+}

@@ -1,0 +1,30 @@
+﻿body
+{width:100%;
+ background-color:beige;
+}
+#container {width:900px; 
+            height:500px;
+            border: 2px dashed gray;
+}
+#table1 {
+    position:absolute;
+    top:100px;
+    left:100px;
+    border: 2px dashed gray;
+    width:200px; 
+    margin: 0 auto;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: lightgreen;
+	border-collapse: collapse;
+}
+#table2 {
+        position:absolute;
+    top:100px;
+    left:400px;
+    border: 2px dashed gray;
+    width:250px; 
+    margin: 0 auto;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	color:lightgreen;
+	border-collapse: collapse;
+}
